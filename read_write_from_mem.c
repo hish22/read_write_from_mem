@@ -40,5 +40,8 @@ int main() {
     printf("ID: %x\nYEAR: %x\nSERIAL NUMBER: %x\nSIGN: %x\n",
             rvptr->id, rvptr->year, rvptr->serialNumber, rvptr->sign);
 
+
+    free(rptr);
+    
     return 0;
 }
